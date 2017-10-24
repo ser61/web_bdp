@@ -28148,7 +28148,7 @@ html:not(.lt-ie10) .not-animated {
 */
 .rd-navbar {
   display: none;
-  background: #3C3F41;
+  background: #5ab4b6;
   box-shadow: none;
 }
 
@@ -29240,7 +29240,7 @@ html.tablet .rd-navbar-panel-wrap {
   position: relative;
   display: inline-block;
   padding: 18px 6px;
-  color: #fff;
+  color: #3c3f41;
   background: transparent;
   line-height: 1.2;
   font-size: 13px;
@@ -29257,7 +29257,7 @@ html.tablet .rd-navbar-panel-wrap {
   height: 2px;
   width: auto;
   opacity: 0;
-  background-color: #FD6D03;
+  background-color: #fff;
   transition: all .3s ease-out;
 }
 
@@ -29280,7 +29280,7 @@ html.tablet .rd-navbar-panel-wrap {
 .rd-navbar-static .rd-navbar-nav > li > a:hover,
 .rd-navbar-fullwidth .rd-navbar-nav > li.focus > a,
 .rd-navbar-fullwidth .rd-navbar-nav > li > a:hover {
-  color: #FD6D03;
+  color: #fff;
   background: none;
 }
 
@@ -29659,7 +29659,7 @@ html.tablet .rd-navbar-panel-wrap {
   top: 0;
   right: 0;
   z-index: 999;
-  background: #3C3F41;
+  background: #5ab4b6;
 }
 
 .rd-navbar-static.rd-navbar--is-stuck .rd-navbar-panel-wrap, .rd-navbar-static.rd-navbar--is-clone .rd-navbar-panel-wrap,
