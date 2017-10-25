@@ -10499,7 +10499,7 @@ address {
 }
 
 .txt-darker * {
-  color: #b2b2b2;
+  color: #3c3f41;
 }
 
 .txt-darker a:hover {
@@ -20397,7 +20397,7 @@ hr {
   width: 100%;
   top: -21px;
   left: 0;
-  background-color: #52566e;
+  background-color: #8d8d8d;
 }
 
 .hr-double:after {
@@ -28275,7 +28275,7 @@ html.tablet .rd-navbar-panel-wrap {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  color: #b2b2b2;
+  color: #3c3f41;
   text-align: left;
   width: 100%;
   -webkit-justify-content: flex-end;
@@ -28366,12 +28366,12 @@ html.tablet .rd-navbar-panel-wrap {
 }
 
 .contact-info a span:first-of-type {
-  color: #fff;
+  color: #3c3f41;
   font-weight: 700;
 }
 
 .contact-info a:focus, .contact-info a:active {
-  color: #161719;
+  color: #3c3f41;
 }
 
 .contact-info a:focus:hover {
@@ -28767,7 +28767,7 @@ html.tablet .rd-navbar-panel-wrap {
     content: '\f107';
     font-family: "FontAwesome";
     font-size: 14px;
-    color: #fff;
+    color: #3c3f41;
   }
   .desktop .rd-navbar-submenu-toggle:hover {
     cursor: pointer;
@@ -29393,7 +29393,7 @@ html.tablet .rd-navbar-panel-wrap {
   margin-top: 10px;
   left: 0;
   width: 260px;
-  background: #3C3F41;
+  background: #5ab4b6;
   z-index: 5;
 }
 
@@ -29431,7 +29431,7 @@ html.tablet .rd-navbar-panel-wrap {
 .rd-navbar-static .rd-navbar-nav li.opened .rd-navbar-submenu-toggle:before,
 .rd-navbar-fullwidth .rd-navbar-nav li.focus .rd-navbar-submenu-toggle:before,
 .rd-navbar-fullwidth .rd-navbar-nav li.opened .rd-navbar-submenu-toggle:before {
-  color: #FD6D03;
+  color: #fff;
 }
 
 .rd-navbar-static .rd-navbar-nav > li,
@@ -29479,7 +29479,7 @@ html.tablet .rd-navbar-panel-wrap {
 .rd-navbar-fullwidth .rd-navbar-dropdown > li > a {
   display: block;
   padding: 12px 0;
-  color: #fff;
+  color: #3c3f41;
   background: transparent;
   margin-left: 27px;
   margin-right: 27px;
@@ -29493,7 +29493,7 @@ html.tablet .rd-navbar-panel-wrap {
 
 .rd-navbar-static .rd-navbar-dropdown > li > a:hover,
 .rd-navbar-fullwidth .rd-navbar-dropdown > li > a:hover {
-  color: #FD6D03;
+  color: #fff;
   background: transparent;
 }
 
@@ -35895,4 +35895,8 @@ a.pswp__share--download:hover {
   cursor: -webkit-grabbing;
   cursor: -moz-grabbing;
   cursor: grabbing;
+}
+
+.txt-darker-sergio * {
+  color: #BFBFBF;
 }
