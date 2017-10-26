@@ -10450,7 +10450,7 @@ address {
 }
 
 .bg-ebony {
-  background-color: #3C3F41;
+  background-color: #8B8A8F;
 }
 
 .bg-ebony a:hover {
@@ -11293,7 +11293,7 @@ fieldset[disabled] .btn-default {
 }
 
 .icon-border {
-  border: 1px solid #fff;
+  border: 2px solid #fff;
 }
 
 .icon-comet {
@@ -20393,11 +20393,11 @@ hr {
   content: '';
   position: absolute;
   display: inline-block;
-  height: 1px;
+  height: 2px;
   width: 100%;
-  top: -21px;
+  top: -18px;
   left: 0;
-  background-color: #8d8d8d;
+  background-color: #D1D2D4;
 }
 
 .hr-double:after {
@@ -20406,7 +20406,7 @@ hr {
 }
 
 .page-foot {
-  color: #8d8d8d;
+  color: #D1D2D4;
 }
 
 .page-foot .rd-navbar-brand {
@@ -29206,11 +29206,11 @@ html.tablet .rd-navbar-panel-wrap {
   content: '';
   position: absolute;
   display: inline-block;
-  height: 1px;
+  height: 2px;
   width: 100%;
-  top: -4px;
+  top: -2px;
   left: 0;
-  background-color: #52566e;
+  background-color: #fff;
 }
 
 .rd-navbar-static .rd-navbar-nav-wrap:after,
@@ -35898,5 +35898,5 @@ a.pswp__share--download:hover {
 }
 
 .txt-darker-sergio * {
-  color: #BFBFBF;
+  color: #D1D2D4;
 }
