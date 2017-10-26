@@ -20427,7 +20427,7 @@ hr {
 }
 
 .page-foot .address span:first-of-type, .page-foot .time span:first-of-type, .page-foot .contact-info span:first-of-type {
-  margin-right: 10px;
+  margin-right: 0px;
 }
 
 .page-foot.bg-pampas {
