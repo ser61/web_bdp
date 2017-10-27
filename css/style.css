@@ -28170,7 +28170,7 @@ html:not(.lt-ie10) .not-animated {
   content: '\f0c9';
   font-size: 30px;
   font-family: "FontAwesome";
-  color: #3C3F41;
+  color: #888B8D;
   transition: .3s;
 }
 
@@ -28179,7 +28179,7 @@ html:not(.lt-ie10) .not-animated {
   opacity: 0;
   -webkit-transform: scale(0);
   transform: scale(0);
-  color: #3C3F41;
+  color: #888B8D;
 }
 
 .rd-navbar-toggle.active span:before {
@@ -28399,7 +28399,7 @@ html.tablet .rd-navbar-panel-wrap {
   z-index: 9999;
   display: inline-block;
   font: 400 30px/40px "FontAwesome";
-  color: #3C3F41;
+  color: #888B8D;
 }
 
 @media (min-width: 992px) {
@@ -28415,7 +28415,7 @@ html.tablet .rd-navbar-panel-wrap {
 }
 
 .rd-navbar-right-panel-toggle:hover {
-  color: #3C3F41;
+  color: #888B8D  ;
   cursor: pointer;
 }
 
