@@ -13,6 +13,8 @@
 		<!--[if lt IE 10]>
     <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/></a></div>
     <script src="js/html5shiv.min.js"></script>
+
+
 		<![endif]-->
   </head>
   <body>
@@ -42,13 +44,13 @@
 
                   <div class="time">
                         <span class="icon icon-sm icon-white icon-border fa-clock-o"></span>
-                        <span>Lun - Vie 8:30-18:30 <br>Sábado 8:30-12:30</span>
+                        <span style="color: #FFFFFF">Lun - Vie 8:30-18:30 <br>Sábado 8:30-12:30</span>
                       </div>
 
                   <div class="contact-info txt">
                           <span class="icon icon-sm icon-white icon-border fa-phone"></span>
-                          <span><a href="callto:#">
-                            <span></span><span style="color: #3c3f41">Necesidad Inmediata: <br> 77813443</span>
+                          <span><a href="contacts.html">
+                            <span></span><span style="color: #FFFFFF">Necesidad Inmediata: <br> 77813443</span>
                           </a></span>
                         </div>
 
@@ -75,7 +77,7 @@
             </div>
             <div class="rd-navbar-nav-wrap hidden-sm hidden-xs">
               <!-- RD Navbar Brand-->
-              <ul class="rd-navbar-nav" style="background-color: #888B8D; width: 100%">
+              <ul class="rd-navbar-nav sergio" style="background-color: #888B8D; width: 100%;">
                 <li class="hidden-sm hidden-xs col-lg-offset-2"><a href="index.html" style="color: #ffffff">&emsp;&emsp;&emsp;Inicio&emsp;&emsp;&emsp;</a></li>
                 <li class="hidden-sm hidden-xs"><a href="quienes_somos.html" style="color: #ffffff">&emsp;&emsp;&emsp;&ensp;Quienes Somos&emsp;&emsp;&emsp;&ensp;</a></li>
                 <li class="hidden-sm hidden-xs">
@@ -187,17 +189,17 @@
             </div>
             <div class="cell-sm-6 cell-md-3 cell-md-preffix-1 text-left">
               <div class="contact-info reveal-block txt-darker-sergio">
-                <span class="icon icon-xs icon-white icon-border fa-phone"></span>
+                <span class="icon icon-xs icon-white fa-phone"></span>
                 <span><a href="callto:#"><span></span><span>Necesidad Inmediata<br>77813443</span></a></span>
               </div>
               <address class="address reveal-block offset-top-20 txt-darker-sergio">
-                <span class="icon icon-xs icon-white icon-border fa-map-marker"></span>
+                <span class="icon icon-xs icon-white fa-map-marker"></span>
                 <span><a href="contacts.html">Avenida Circunvalación<br>548, Lado Este (Montero)</a></span>
               </address>
-              <div class="time reveal-block offset-top-20 txt-darker-sergio"><span class="icon icon-xs icon-white icon-border fa-clock-o"></span><span>Lun - Vie 8:30-18:30<br>Sábado 8:30-12:30</span></div>
+              <div class="time reveal-block offset-top-20 txt-darker-sergio"><span class="icon icon-xs icon-white fa-clock-o"></span><span>Lun - Vie 8:30-18:30<br>Sábado 8:30-12:30</span></div>
 
               <div class="time reveal-block offset-top-20 txt-darker-sergio">
-                <span class="icon icon-xs icon-white icon-border fa-facebook-f"></span>
+                <span class="icon icon-xs icon-white fa-facebook-f"></span>
                 <span><a href="https://www.facebook.com/brisasdepazparquecementerio/">Brisas De Paz<br>Parque Cementario</a></span>
               </div>
 
@@ -258,7 +260,19 @@
       </div>
     </div>
     <!-- Java script-->
+
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
+    <script>
+      $(document).ready(function(){
+        $(window).scroll(function() { // check if scroll event happened
+          if ($(document).scrollTop() > 50) { // check if user scrolled more than 50 from top of the browser window
+            $(".sergio").css("background-color", "#54B1B6"); // if not, change it back to transparent
+          } else {
+            $(".sergio").css("background-color", "#888B8D"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
+          }
+        });
+      });
+    </script>
   </body>
 </html>
