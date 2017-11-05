@@ -28767,7 +28767,7 @@ html.tablet .rd-navbar-panel-wrap {
     content: '\f107';
     font-family: "FontAwesome";
     font-size: 14px;
-    color: #3c3f41;
+    color: #ffffff;
   }
   .desktop .rd-navbar-submenu-toggle:hover {
     cursor: pointer;
@@ -29254,7 +29254,7 @@ html.tablet .rd-navbar-panel-wrap {
   right: 50%;
   content: '';
   display: inline-block;
-  height: 2px;
+  height: 4px;
   width: auto;
   opacity: 0;
   background-color: #54B1B6;
@@ -29308,7 +29308,7 @@ html.tablet .rd-navbar-panel-wrap {
 
 .rd-navbar-static .rd-navbar-nav > li.active .rd-navbar-submenu-toggle:before,
 .rd-navbar-fullwidth .rd-navbar-nav > li.active .rd-navbar-submenu-toggle:before {
-  color: #FD6D03;
+  color: #ffffff;
 }
 
 .rd-navbar-static .rd-navbar-nav > .rd-navbar-submenu > ul,
@@ -29431,7 +29431,7 @@ html.tablet .rd-navbar-panel-wrap {
 .rd-navbar-static .rd-navbar-nav li.opened .rd-navbar-submenu-toggle:before,
 .rd-navbar-fullwidth .rd-navbar-nav li.focus .rd-navbar-submenu-toggle:before,
 .rd-navbar-fullwidth .rd-navbar-nav li.opened .rd-navbar-submenu-toggle:before {
-  color: #fff;
+  color: #ffffff;
 }
 
 .rd-navbar-static .rd-navbar-nav > li,
