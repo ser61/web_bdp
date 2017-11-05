@@ -39,20 +39,20 @@
                 <div id="rd-navbar-right-panel" class="rd-navbar-right-panel">
                   <address class="address">
                     <span class="icon icon-sm icon-white icon-border fa-map-marker"></span>
-                    <span class="txt-darker"><a href="contacts.html">Avenida Circunvalación 548,<br>Lado Este (Montero)</a></span>
+                    <span class="txt-darker"><a href="#" data-toggle="modal" data-target="#myModal">Avenida Circunvalación 548,<br>Lado Este (Montero)</a></span>
                   </address>
 
                   <div class="time">
-                        <span class="icon icon-sm icon-white icon-border fa-clock-o"></span>
-                        <span style="color: #FFFFFF">Lun - Vie 8:30-18:30 <br>Sábado 8:30-12:30</span>
-                      </div>
+                    <span class="icon icon-sm icon-white icon-border fa-clock-o"></span>
+                    <span style="color: #FFFFFF">Lun - Vie 8:30-18:30 <br>Sábado 8:30-12:30</span>
+                  </div>
 
                   <div class="contact-info txt">
-                          <span class="icon icon-sm icon-white icon-border fa-phone"></span>
+                    <span class="icon icon-sm icon-white icon-border fa-phone"></span>
                           <span><a href="contacts.html">
                             <span></span><span style="color: #FFFFFF">Necesidad Inmediata: <br> 77813443</span>
                           </a></span>
-                        </div>
+                  </div>
 
                 </div>
               </div>
@@ -108,6 +108,35 @@
           </nav>
         </div>
       </header>
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel" style="text-align: center">Ubicanos aquí</h4>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="col-lg-6">
+                    <h5>Montero</h5>
+                    <div style="border: 4px solid #888B8D;">
+                      <div id="map" style="width: 100%; height: 350px;"></div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <h5>Santa Cruz</h5>
+                    <div style="border: 4px solid #888B8D;">
+                      <div id="map-s" style="width: 100%; height: 350px;"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- Page Content-->
       <main class="page-content">
         <!-- Swiper-->
@@ -263,7 +292,8 @@
       </div>
     </div>
     <!-- Java script-->
-
+    <script src="js/ubicacion.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAO_qsF9Gx4Lp8tL7mOQb2iiiXyOzUH5HQ&callback=initMap" async defer></script>
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
     <script>
@@ -275,6 +305,11 @@
             $(".sergio").css("background-color", "#888B8D"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
           }
         });
+      });
+
+      $("#myModal").on("shown.bs.modal", function () {
+        montero();
+        santaCruz();
       });
     </script>
   </body>
