@@ -10000,7 +10000,7 @@ h3,
 .h3 {
   font-size: 22px;
   line-height: 1.5;
-  color: #ad5a55;
+  color: #000000;
 }
 
 @media (min-width: 768px) {
@@ -10018,12 +10018,12 @@ h3 a:hover,
 
 h3 a,
 .h3 a {
-  color: #ad5a55;
+  color: #000000;
 }
 
 h3 a:hover,
 .h3 a:hover {
-  color: #54B1B6;
+  color: #4a4b4e;
 }
 
 h4,
@@ -10491,7 +10491,7 @@ address {
 }
 
 .txt-matrix {
-  color: #ad5a55;
+  color: #000000;
 }
 
 .txt-darker {
